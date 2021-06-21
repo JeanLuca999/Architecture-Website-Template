@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header nav ul {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    background-color: #000000b7;
+    width: 80%;
+    max-width: 300px;
+    height: 100vh;
+
+    transition: 0.4s ease;
+}
+
+.header nav ul li {
+    margin: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.header nav ul li a {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu {
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+}
+
+.menu-bar {
+    width: 24px;
+    height: 3px;
+    background-color: #000;
+    margin-bottom: 3px;
+}
+
+.menu-open {
+    left: 0% !important;
+}
+
+.main .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaec;
+}
+
+.main .banner figure {
+    max-width: 700px;
+}
+
+.main .banner img {
+    width: 100%;
+}
+
+.main .banner div {
+    max-width: 500px;
+    margin-right: auto;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.main .banner div h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    color: #111;
+    margin: 10px 0;
+    margin-bottom: 0;
+}
+
+.main .banner div h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 4rem;
+    color: #555c66;
+
+    margin: 5px 0;
+}
+
+.main .banner div p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 25px;
+    color: #555c66;
+
+    margin: 15px 0;
+}
+
+.main .banner div button {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    width: 90%;
+    max-width: 200px;
+    height: 40px;
+    background-color: #555c66;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.main .banner div button:hover {
+    background-color: #484e57;
+}
+
+@media screen and (min-width:600px) {
+    html {
+        font-size: 12px;
+    }
+    .main .banner {
+        flex-direction: row;
+    }
+}

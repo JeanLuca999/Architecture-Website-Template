@@ -3,4 +3,4 @@
 
 
 ![preview](./images/preview01.png)
-![preview](./images/preview02.png)
+![preview2](./images/preview02.png)

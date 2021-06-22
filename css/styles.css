@@ -61,6 +61,31 @@ body {
     left: 0% !important;
 }
 
+.menu-close-button {
+    position: relative;
+    top: 20px;
+    margin-left: auto;
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+}
+
+.menu-close-button div {
+    position: relative;
+    width: 24px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.menu-close-button div:nth-child(1) {
+    transform: rotate(225deg);
+}
+
+.menu-close-button div:nth-child(2) {
+    transform: rotate(-225deg);
+    bottom: 3px;
+}
+
 .main .banner {
     display: flex;
     flex-direction: column;
